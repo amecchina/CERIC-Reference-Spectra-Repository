@@ -1,0 +1,13 @@
+# XDI/1.0
+# Facility.name: SOLARIS
+# Beamline.name: ASTRA
+# Element.edge: K
+# Element.symbol: S
+# Mono.name: InSb111
+# Sample.formula: MgSO4
+# Sample.name: MgSO4
+# Sample.temperature: 300 K
+# Column.1: energy eV
+# Column.2: mutrans
+# ///
+# Data rows removed from the public repository. Full XDI data are kept locally in private_data/.

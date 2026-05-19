@@ -1,0 +1,181 @@
+/* Global design tokens and primitives shared by every page. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --ink: #17181c;
+    --text: #343941;
+    --muted: #5f6673;
+    --line: #dce5e8;
+    --soft: #edf1f3;
+    --blue: #3a6f9f;
+    --blue-dark: #0b2f57;
+    --shadow: 0 12px 32px rgba(23, 24, 28, 0.065);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: var(--ink);
+    background: linear-gradient(180deg, #f8fbfc 0%, #ffffff 42%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+img,
+svg {
+    max-width: 100%;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+        linear-gradient(rgba(34, 104, 178, 0.055) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 143, 116, 0.05) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: linear-gradient(to bottom, black, transparent 65%);
+}
+
+a {
+    color: var(--blue);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.kicker,
+.panel-label,
+.eyebrow,
+.section-label {
+    margin: 0;
+    color: var(--muted);
+    font-size: 1rem;
+    font-weight: 410;
+    text-transform: uppercase;
+}
+
+.upload-button {
+    width: 2.7rem;
+    height: 2.7rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.78);
+    color: var(--blue);
+    font-size: 1.8rem;
+    font-weight: 375;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.upload-button:hover,
+.upload-button:focus-within {
+    background: #ffffff;
+    color: var(--blue-dark);
+    outline: none;
+}
+
+.upload-button input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.upload-button span {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: 1;
+}
+
+footer .footer-line {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 0.45rem;
+    white-space: nowrap;
+    line-height: 1.2;
+}
+
+footer .license-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: inherit;
+    font-size: 0.95em;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+footer .license-badge img {
+    width: auto;
+    height: 1.08em;
+    display: block;
+}
+
+footer .footer-line a {
+    color: inherit;
+    font-weight: inherit;
+}
+
+footer .footer-line a.doi-badge {
+    display: inline-flex;
+    align-items: stretch;
+    overflow: hidden;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 0.7em;
+    font-weight: 500;
+    height: 1.3em;
+    line-height: 1;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+footer .doi-prefix,
+footer .doi-value {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.42em;
+}
+
+footer .doi-prefix {
+    background: #555b64;
+}
+
+footer .doi-value {
+    background: var(--blue);
+}
+
+footer .footer-line a.doi-badge:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    footer .footer-line {
+        flex-wrap: wrap;
+        white-space: normal;
+    }
+}

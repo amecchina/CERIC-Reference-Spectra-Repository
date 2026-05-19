@@ -1,0 +1,23 @@
+{
+  "name": "CERIC Reference Spectra Repository",
+  "beamlines": {
+    "lisa-esrf": {
+      "name": "LISA@ESRF",
+      "facility": "ESRF",
+      "manifest": "pages/lisa-esrf/manifest.json",
+      "files": "pages/lisa-esrf/files/"
+    },
+    "xas-elettra": {
+      "name": "XAS@ELETTRA",
+      "facility": "ELETTRA",
+      "manifest": "pages/xas-elettra/manifest.json",
+      "files": "pages/xas-elettra/files/"
+    },
+    "astra-solaris": {
+      "name": "ASTRA@SOLARIS",
+      "facility": "SOLARIS",
+      "manifest": "pages/astra-solaris/manifest.json",
+      "files": "pages/astra-solaris/files/"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "Cu": [
+    {
+      "file": "Cu2_I_O_Ge_220.xdi"
+    },
+    {
+      "file": "Cu_foil_Ge_220.xdi"
+    },
+    {
+      "file": "Cu_II_O_Ge_220.xdi"
+    }
+  ],
+  "Fe": [
+    {
+      "file": "Fe2O3_Ge_220.xdi"
+    },
+    {
+      "file": "Fe3O4_Ge_220.xdi"
+    },
+    {
+      "file": "Fe_foil_Ge_220.xdi"
+    },
+    {
+      "file": "Fe_OH_3_Ge_220.xdi"
+    },
+    {
+      "file": "FeO_Ge_220.xdi"
+    },
+    {
+      "file": "FePO4x2H2O_Ge_220.xdi"
+    }
+  ],
+  "K": [
+    {
+      "file": "K2CO3_Ge_220.xdi"
+    },
+    {
+      "file": "K2HPO4_Ge_220.xdi"
+    },
+    {
+      "file": "K2SO4_Ge_220.xdi"
+    },
+    {
+      "file": "KCl_Ge_220.xdi"
+    },
+    {
+      "file": "KH2PO4_Ge_220.xdi"
+    },
+    {
+      "file": "KHCO3_Ge_220.xdi"
+    },
+    {
+      "file": "KHSO4_Ge_220.xdi"
+    },
+    {
+      "file": "KNO3_Ge_220.xdi"
+    }
+  ],
+  "P": [
+    {
+      "file": "FePO4_Ge_111.xdi"
+    },
+    {
+      "file": "K2HPO4_Ge_111.xdi"
+    },
+    {
+      "file": "KH2PO4_Ge_111.xdi"
+    },
+    {
+      "file": "Na2HPO4XH2O_Ge_111.xdi"
+    },
+    {
+      "file": "NaH2PO4XH2O_Ge_111.xdi"
+    }
+  ],
+  "S": [
+    {
+      "file": "Methionine_InSb_111.xdi"
+    },
+    {
+      "file": "Methionine_Si_111.xdi"
+    },
+    {
+      "file": "MgSO4_InSb_111.xdi"
+    },
+    {
+      "file": "MgSO4_x_7H2O_Si_111.xdi"
+    },
+    {
+      "file": "Na2S2O3_Si_111.xdi"
+    },
+    {
+      "file": "Na2S2O3x5H2O_InSb_111.xdi"
+    },
+    {
+      "file": "Na2SO3_InSb_111.xdi"
+    },
+    {
+      "file": "Na2SO4_InSb_111.xdi"
+    },
+    {
+      "file": "NH4_2SO4_InSb_111.xdi"
+    },
+    {
+      "file": "NH4_2SO4_Si_111.xdi"
+    },
+    {
+      "file": "S8_InSb_111.xdi"
+    },
+    {
+      "file": "ZnSO4_InSb_111.xdi"
+    },
+    {
+      "file": "ZnSO4_x_7H2O_Si_111.xdi"
+    }
+  ],
+  "Zn": [
+    {
+      "file": "Zn_foil_Ge_220.xdi"
+    },
+    {
+      "file": "ZnO_Ge_220.xdi"
+    },
+    {
+      "file": "ZnS_Ge_220.xdi"
+    },
+    {
+      "file": "ZnSO4_Ge_220.xdi"
+    }
+  ]
+}

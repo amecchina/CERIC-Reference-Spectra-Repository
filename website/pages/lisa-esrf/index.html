@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISA@ESRF Repository</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon-32x32.png?v=4">
+    <link rel="apple-touch-icon" href="../../assets/images/favicon-32x32.png?v=4">
+    <link rel="stylesheet" href="../../assets/css/base.css">
+    <link rel="stylesheet" href="../../assets/css/beamline.css">
+    <link rel="stylesheet" href="../../assets/css/cards.css">
+    <script src="../../assets/js/download-zip.js?v=20260510" defer></script>
+    <script src="../../assets/js/xdi-common.js?v=20260510" defer></script>
+    <script src="../../assets/js/upload.js?v=20260510" defer></script>
+    <script src="../../assets/js/beamline-page.js?v=20260510" defer></script>
+</head>
+
+<body data-beamline="lisa-esrf" data-beamline-name="LISA@ESRF">
+    <header class="page-header">
+        <div>
+            <p class="eyebrow">XAS beamline</p>
+            <h1>LISA@ESRF</h1>
+        </div>
+        <div class="page-actions">
+            <a class="home-link" href="../../index.html">Back to Home</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="repository-shell" aria-label="XAS periodic table repository">
+            <div class="table-card">
+                <div class="table-toolbar">
+                    <div class="table-search-actions">
+                        <label class="search-box">
+                            <input id="element-search" type="search"
+                                placeholder="Search by atomic number, chemical symbol, or element name">
+                        </label>
+                        <label class="upload-button" title="Upload XDI files">
+                            <span aria-hidden="true">+</span>
+                            <input type="file" accept=".xdi" multiple aria-label="Upload XDI files for LISA@ESRF">
+                        </label>
+                    </div>
+                    <div class="legend" aria-label="Table legend">
+                        <span><i class="available-key"></i>Available</span>
+                    </div>
+                </div>
+
+                <div class="periodic-table" id="periodic-table" aria-label="Periodic table"></div>
+            </div>
+
+        </section>
+
+        <section class="files-section" id="files-section" hidden>
+            <div class="files-count-row">
+                <p class="section-label" id="files-count"></p>
+                <button class="download-all-button download-matches-button" type="button" id="download-all-button">
+                    Download All
+                </button>
+            </div>
+            <h2 id="files-title"></h2>
+            <div class="file-list" id="file-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-line">&copy; 2026 Andrea Mecchina et al.
+            <a class="doi-badge" href="https://doi.org/10.5281/zenodo.20146602" target="_blank"
+                rel="noopener noreferrer" aria-label="DOI 10.5281/zenodo.20146602">
+                <span class="doi-prefix">DOI</span>
+                <span class="doi-value">10.5281/zenodo.20146602</span>
+            </a>
+            <span aria-hidden="true">·</span>
+            <span>Code licensed under <a href="../../../LICENSE">MIT</a></span>
+            <span aria-hidden="true">·</span>
+            <span class="license-badge">
+                Data licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"
+                    rel="noopener noreferrer">CC BY 4.0</a>
+                <img src="https://licensebuttons.net/l/by/4.0/88x31.png"
+                    alt="Creative Commons Attribution 4.0 International icon">
+            </span>
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "Cu": [
+    {
+      "file": "Cu_foil.xdi"
+    }
+  ],
+  "Mo": [
+    {
+      "file": "Mo_foil.xdi"
+    }
+  ],
+  "Ti": [
+    {
+      "file": "Ti_foil.xdi"
+    }
+  ]
+}

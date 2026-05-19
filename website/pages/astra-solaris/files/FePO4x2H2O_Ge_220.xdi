@@ -1,0 +1,13 @@
+# XDI/1.0
+# Facility.name: SOLARIS
+# Beamline.name: ASTRA
+# Element.edge: K
+# Element.symbol: Fe
+# Mono.name: Ge220
+# Sample.formula: FePO4x2H2O
+# Sample.name: FePO4x2H2O
+# Sample.temperature: 300 K
+# Column.1: energy eV
+# Column.2: mutrans
+# ///
+# Data rows removed from the public repository. Full XDI data are kept locally in private_data/.

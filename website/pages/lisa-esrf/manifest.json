@@ -1,0 +1,582 @@
+{
+  "Ti": [
+    {
+      "file": "Ti_foil_111.xdi"
+    },
+    {
+      "file": "Ti_foil_311.xdi"
+    }
+  ],
+  "V": [
+    {
+      "file": "V_foil_311.xdi"
+    }
+  ],
+  "Cr": [
+    {
+      "file": "Cr_foil_111.xdi"
+    },
+    {
+      "file": "Cr_foil_311.xdi"
+    },
+    {
+      "file": "Cr2O3_111.xdi"
+    },
+    {
+      "file": "CrO3_311.xdi"
+    },
+    {
+      "file": "CRM041_Cr(VI)_111.xdi"
+    }
+  ],
+  "Mn": [
+    {
+      "file": "Mn_foil_111.xdi"
+    },
+    {
+      "file": "mno2_10m.xdi"
+    },
+    {
+      "file": "spessartine_10m.xdi"
+    },
+    {
+      "file": "rhodochrosite_10m.xdi"
+    },
+    {
+      "file": "bixbyite_10m.xdi"
+    },
+    {
+      "file": "MnO.xdi"
+    },
+    {
+      "file": "MnO2.xdi"
+    }
+  ],
+  "Fe": [
+    {
+      "file": "Fe_foil_311.xdi"
+    },
+    {
+      "file": "FeO_111.xdi"
+    },
+    {
+      "file": "FeO_311.xdi"
+    },
+    {
+      "file": "FeO_311_79K.xdi"
+    },
+    {
+      "file": "Fe2O3_311_XANES.xdi"
+    },
+    {
+      "file": "Fe2O3_311_EXAFS.xdi"
+    },
+    {
+      "file": "fayalite_311.xdi"
+    },
+    {
+      "file": "Ferrihydrite_311_EXAFS.xdi"
+    },
+    {
+      "file": "Ferrihydrite_311_XANES.xdi"
+    },
+    {
+      "file": "Hematite_311.xdi"
+    },
+    {
+      "file": "Hematite_311_XANES.xdi"
+    },
+    {
+      "file": "Fe3O4_111.xdi"
+    },
+    {
+      "file": "Fe3O4_311.xdi"
+    },
+    {
+      "file": "CoFe2O4_Fe_111_80K.xdi"
+    },
+    {
+      "file": "CuFeS2_Fe_80K_111.xdi"
+    },
+    {
+      "file": "NiFe2O4_Fe_80K_111.xdi"
+    },
+    {
+      "file": "goethite_111.xdi"
+    },
+    {
+      "file": "Fe_Mineral_goethite_111.xdi"
+    },
+    {
+      "file": "goethite_311_EXAFS.xdi"
+    },
+    {
+      "file": "goethite_311_XANES.xdi"
+    },
+    {
+      "file": "Fe_Mineral_Biotite_111.xdi"
+    },
+    {
+      "file": "Fe_Mineral_muscovite_111.xdi"
+    },
+    {
+      "file": "Fe2_SO4_3_111.xdi"
+    },
+    {
+      "file": "FeSO4_311.xdi"
+    }
+  ],
+  "Co": [
+    {
+      "file": "Co_foil_111.xdi"
+    },
+    {
+      "file": "CoO_111_80K.xdi"
+    },
+    {
+      "file": "Co2O3_111_80K.xdi"
+    },
+    {
+      "file": "Co3O4_111_80K.xdi"
+    },
+    {
+      "file": "CoAl2O4_111_80K.xdi"
+    },
+    {
+      "file": "CoFe2O4_Co_111_80K.xdi"
+    },
+    {
+      "file": "LiCoO2_80K_111.xdi"
+    },
+    {
+      "file": "NiCo2O4_Co_80K_111.xdi"
+    },
+    {
+      "file": "ZnCo2O4_Co_80K_111.xdi"
+    },
+    {
+      "file": "CoP_111.xdi"
+    },
+    {
+      "file": "Co_Acetate_111.xdi"
+    }
+  ],
+  "Ni": [
+    {
+      "file": "NiO_111.xdi"
+    },
+    {
+      "file": "LaNiO3_Ni_80K_111.xdi"
+    },
+    {
+      "file": "NiCo2O4_Ni_80K_111.xdi"
+    },
+    {
+      "file": "NiFe2O4_Ni_80K_111.xdi"
+    }
+  ],
+  "Cu": [
+    {
+      "file": "Cu_foil_111.xdi"
+    },
+    {
+      "file": "Cu2O_111.xdi"
+    },
+    {
+      "file": "CuO_111.xdi"
+    },
+    {
+      "file": "CuFeS2_Cu_80K_111.xdi"
+    },
+    {
+      "file": "Chalcocite-Cu2S_111.xdi"
+    },
+    {
+      "file": "CuCl_111.xdi"
+    },
+    {
+      "file": "CuCl2_311.xdi"
+    },
+    {
+      "file": "CuCO3_111.xdi"
+    },
+    {
+      "file": "CuS_111.xdi"
+    },
+    {
+      "file": "Cu2S_111.xdi"
+    },
+    {
+      "file": "Cu5FeS4_111.xdi"
+    },
+    {
+      "file": "Cu(OH)2_111.xdi"
+    },
+    {
+      "file": "CuSO4_111.xdi"
+    },
+    {
+      "file": "CuSO4_2mM_111.xdi"
+    },
+    {
+      "file": "Azurite_80K_111.xdi"
+    },
+    {
+      "file": "cu(c19h29coo)2_80K_111.xdi"
+    },
+    {
+      "file": "Cu(CH3COO)2_80K_111.xdi"
+    }
+  ],
+  "Zn": [
+    {
+      "file": "Zn_foil_111.xdi"
+    },
+    {
+      "file": "ZnO_111.xdi"
+    },
+    {
+      "file": "ZnCo2O4_Zn_80K_111.xdi"
+    }
+  ],
+  "Ga": [
+    {
+      "file": "GaAs_Ga_111.xdi"
+    }
+  ],
+  "Ge": [
+    {
+      "file": "Ge_111.xdi"
+    },
+    {
+      "file": "GeO2_111.xdi"
+    }
+  ],
+  "As": [
+    {
+      "file": "GaAs_As_111.xdi"
+    },
+    {
+      "file": "As2O5_111.xdi"
+    },
+    {
+      "file": "As2S3_111.xdi"
+    },
+    {
+      "file": "As4S4_111.xdi"
+    },
+    {
+      "file": "As2O3_111.xdi"
+    },
+    {
+      "file": "Ca3(AsO4)2_111.xdi"
+    },
+    {
+      "file": "Ag3AsO4_As_111.xdi"
+    },
+    {
+      "file": "Na3AsO4_111.xdi"
+    },
+    {
+      "file": "Na2HAsO4_311.xdi"
+    },
+    {
+      "file": "NaAsO2_311.xdi"
+    },
+    {
+      "file": "inas_311.xdi"
+    }
+  ],
+  "Se": [
+    {
+      "file": "Se_foil_111.xdi"
+    },
+    {
+      "file": "CdSe_Se_111.xdi"
+    },
+    {
+      "file": "Na2SeO3_111.xdi"
+    },
+    {
+      "file": "Na2SeO4_111.xdi"
+    },
+    {
+      "file": "SeS2_111.xdi"
+    },
+    {
+      "file": "H2SeO3_111.xdi"
+    },
+    {
+      "file": "ZnSe_Se_311.xdi"
+    },
+    {
+      "file": "ZnSe_Se_15K_311.xdi"
+    }
+  ],
+  "Zr": [
+    {
+      "file": "Zr_foil_311.xdi"
+    },
+    {
+      "file": "ZrO2_311.xdi"
+    }
+  ],
+  "Nb": [
+    {
+      "file": "Nb_foil_311.xdi"
+    }
+  ],
+  "Mo": [
+    {
+      "file": "Mo_foil_111.xdi"
+    },
+    {
+      "file": "MoO2_311.xdi"
+    },
+    {
+      "file": "MoO3_111.xdi"
+    },
+    {
+      "file": "MoO3_311.xdi"
+    },
+    {
+      "file": "MoS2_311.xdi"
+    },
+    {
+      "file": "NH42MoS4_311.xdi"
+    },
+    {
+      "file": "Mo5Si3_311.xdi"
+    }
+  ],
+  "Ru": [
+    {
+      "file": "Ru_foil_311.xdi"
+    },
+    {
+      "file": "RuO2_111.xdi"
+    }
+  ],
+  "Pd": [
+    {
+      "file": "Pd_foil_111.xdi"
+    }
+  ],
+  "Ag": [
+    {
+      "file": "Ag_foil_311.xdi"
+    },
+    {
+      "file": "Ag_foil_111.xdi"
+    }
+  ],
+  "Cd": [
+    {
+      "file": "Cd_foil_111.xdi"
+    },
+    {
+      "file": "CdCO3_311.xdi"
+    },
+    {
+      "file": "CdS_111.xdi"
+    },
+    {
+      "file": "CdSe_Cd_111.xdi"
+    },
+    {
+      "file": "CdSO4_111.xdi"
+    }
+  ],
+  "In": [
+    {
+      "file": "In_foil_311.xdi"
+    },
+    {
+      "file": "InAs_In_77K_311.xdi"
+    },
+    {
+      "file": "InP_K_311.xdi"
+    }
+  ],
+  "Sn": [
+    {
+      "file": "Sn_foil_311.xdi"
+    },
+    {
+      "file": "SnI2_311.xdi"
+    },
+    {
+      "file": "SnI2_311_100K.xdi"
+    },
+    {
+      "file": "SnO_111.xdi"
+    },
+    {
+      "file": "SnO_311.xdi"
+    },
+    {
+      "file": "SnO_311_100K.xdi"
+    },
+    {
+      "file": "SnO2_111.xdi"
+    },
+    {
+      "file": "SnS_111.xdi"
+    }
+  ],
+  "Xe": [
+    {
+      "file": "Xenon_311.xdi"
+    }
+  ],
+  "Ba": [
+    {
+      "file": "BaO_K_311_80K.xdi"
+    }
+  ],
+  "Hf": [
+    {
+      "file": "Hf_foil_L3_111.xdi"
+    },
+    {
+      "file": "HfO2_311.xdi"
+    }
+  ],
+  "Ta": [
+    {
+      "file": "Ta_foil_K_311.xdi"
+    },
+    {
+      "file": "Ta_foil_K_311_80K.xdi"
+    },
+    {
+      "file": "Ta2O5_311.xdi"
+    }
+  ],
+  "W": [
+    {
+      "file": "W_foil_L3_111.xdi"
+    },
+    {
+      "file": "W_foil_K_311_80K.xdi"
+    }
+  ],
+  "Re": [
+    {
+      "file": "Re_foil_K_311.xdi"
+    },
+    {
+      "file": "Re_foil_K_311_80K.xdi"
+    }
+  ],
+  "Ir": [
+    {
+      "file": "Ir_foil_L3_111.xdi"
+    },
+    {
+      "file": "Ir_foil_K_311_80K.xdi"
+    },
+    {
+      "file": "IrCl3_L3_111.xdi"
+    },
+    {
+      "file": "IrO2_L3_111.xdi"
+    }
+  ],
+  "Pt": [
+    {
+      "file": "Pt_foil_L3_311.xdi"
+    },
+    {
+      "file": "PtO2_L3_311.xdi"
+    }
+  ],
+  "Au": [
+    {
+      "file": "Au_foil_L3_311_80K.xdi"
+    }
+  ],
+  "Pb": [
+    {
+      "file": "Pb_foil_111.xdi"
+    },
+    {
+      "file": "PbO_111.xdi"
+    }
+  ],
+  "Bi": [
+    {
+      "file": "Bi_foil_L3_111.xdi"
+    },
+    {
+      "file": "Bi2O2CO3_L3_111.xdi"
+    }
+  ],
+  "La": [
+    {
+      "file": "La2O3_K_311.xdi"
+    },
+    {
+      "file": "LaMnO3_LaL3_111.xdi"
+    }
+  ],
+  "Ce": [
+    {
+      "file": "Ce(SO4)2_L3_111.xdi"
+    },
+    {
+      "file": "CeO2_K_311_80K.xdi"
+    }
+  ],
+  "Nd": [
+    {
+      "file": "Nd2O3_K_311.xdi"
+    },
+    {
+      "file": "Nd2CuO4_NdL3_111.xdi"
+    },
+    {
+      "file": "Nd2CuO4_NdK_311.xdi"
+    }
+  ],
+  "Sm": [
+    {
+      "file": "Sm2O3_K_311.xdi"
+    }
+  ],
+  "Eu": [
+    {
+      "file": "Eu2O3_K_311_80K.xdi"
+    }
+  ],
+  "Tb": [
+    {
+      "file": "Tb4O7_K_311_80K.xdi"
+    }
+  ],
+  "Er": [
+    {
+      "file": "Er2O3_111.xdi"
+    },
+    {
+      "file": "Er2O3_K_311_80K.xdi"
+    },
+    {
+      "file": "ErO4P_111.xdi"
+    },
+    {
+      "file": "ErF3_111.xdi"
+    },
+    {
+      "file": "ErCl3_111.xdi"
+    }
+  ],
+  "Lu": [
+    {
+      "file": "Lu2O3_111.xdi"
+    },
+    {
+      "file": "Lu2O3_311.xdi"
+    }
+  ]
+}

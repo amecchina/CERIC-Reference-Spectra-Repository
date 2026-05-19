@@ -1,0 +1,19 @@
+# XDI/1.0 GSE/1.0
+# Column.1: energy eV
+# Column.2: mutrans
+# Column.3: i0
+# Column.4: i1
+# Column.5: i2
+# Element.edge: K
+# Element.symbol: Cu
+# Scan.edge_energy: 8979.0
+# Mono.name: Si 111
+# Beamline.name: XAFS
+# Beamline.harmonic_rejection: detuned 
+# Facility.name: ELETTRA
+# Facility.energy: 2.00 GeV
+# Facility.xray_source: BM
+# Scan.start_time: 2023-06-08T21:48:47
+# Sample.name: Cu metal foil
+# Sample.prep: standard foil
+# energy	mutrans	i0	i1	i2		
